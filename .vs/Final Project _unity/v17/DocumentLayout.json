@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\UniProject\\Final Project _unity\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5556223D-BD47-E321-14A3-BCD3FE00F1A7}|Assembly-CSharp.csproj|D:\\UniProject\\Final Project _unity\\assets\\scripts\\menuscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5556223D-BD47-E321-14A3-BCD3FE00F1A7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5556223D-BD47-E321-14A3-BCD3FE00F1A7}|Assembly-CSharp.csproj|D:\\UniProject\\Final Project _unity\\assets\\scripts\\scoresystemscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5556223D-BD47-E321-14A3-BCD3FE00F1A7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scoresystemscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5556223D-BD47-E321-14A3-BCD3FE00F1A7}|Assembly-CSharp.csproj|d:\\uniproject\\final project _unity\\assets\\scripts\\patrolprefabscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5556223D-BD47-E321-14A3-BCD3FE00F1A7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\patrolprefabscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5556223D-BD47-E321-14A3-BCD3FE00F1A7}|Assembly-CSharp.csproj|d:\\uniproject\\final project _unity\\assets\\scripts\\pacmanscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5556223D-BD47-E321-14A3-BCD3FE00F1A7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pacmanscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5556223D-BD47-E321-14A3-BCD3FE00F1A7}|Assembly-CSharp.csproj|D:\\UniProject\\Final Project _unity\\assets\\scripts\\gamecontrollerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5556223D-BD47-E321-14A3-BCD3FE00F1A7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamecontrollerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5556223D-BD47-E321-14A3-BCD3FE00F1A7}|Assembly-CSharp.csproj|D:\\UniProject\\Final Project _unity\\assets\\scripts\\powerupscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5556223D-BD47-E321-14A3-BCD3FE00F1A7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\powerupscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameControllerScript.cs",
+              "DocumentMoniker": "D:\\UniProject\\Final Project _unity\\Assets\\Scripts\\GameControllerScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameControllerScript.cs",
+              "ToolTip": "D:\\UniProject\\Final Project _unity\\Assets\\Scripts\\GameControllerScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameControllerScript.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBAAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T21:31:38.531Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PacManScript.cs",
+              "DocumentMoniker": "D:\\UniProject\\Final Project _unity\\Assets\\Scripts\\PacManScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PacManScript.cs",
+              "ToolTip": "D:\\UniProject\\Final Project _unity\\Assets\\Scripts\\PacManScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PacManScript.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAA0wCwAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T06:01:05.313Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PatrolPrefabScript.cs",
+              "DocumentMoniker": "D:\\UniProject\\Final Project _unity\\Assets\\Scripts\\PatrolPrefabScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PatrolPrefabScript.cs",
+              "ToolTip": "D:\\UniProject\\Final Project _unity\\Assets\\Scripts\\PatrolPrefabScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PatrolPrefabScript.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAkwDIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T04:33:20.941Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ScoreSystemScript.cs",
+              "DocumentMoniker": "D:\\UniProject\\Final Project _unity\\Assets\\Scripts\\ScoreSystemScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScoreSystemScript.cs",
+              "ToolTip": "D:\\UniProject\\Final Project _unity\\Assets\\Scripts\\ScoreSystemScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScoreSystemScript.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T15:18:44.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MenuScript.cs",
+              "DocumentMoniker": "D:\\UniProject\\Final Project _unity\\Assets\\Scripts\\MenuScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuScript.cs",
+              "ToolTip": "D:\\UniProject\\Final Project _unity\\Assets\\Scripts\\MenuScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MenuScript.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwCUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T14:21:12.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PowerUpScript.cs",
+              "DocumentMoniker": "D:\\UniProject\\Final Project _unity\\Assets\\Scripts\\PowerUpScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PowerUpScript.cs",
+              "ToolTip": "D:\\UniProject\\Final Project _unity\\Assets\\Scripts\\PowerUpScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PowerUpScript.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T21:16:07.52Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
