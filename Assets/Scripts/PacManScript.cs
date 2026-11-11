@@ -16,6 +16,10 @@ public class PacManScript : MonoBehaviour
 
     float rotationY;
     public static bool isPower;
+    public static int PowerActivation { get; private set; }
+    public Vector3 TravelHeading { get; private set; }
+    Coroutine powerRoutine;
+    int lastLifeLostFrame = -1;
     bool isGrounded; 
 
 
@@ -27,32 +31,44 @@ public class PacManScript : MonoBehaviour
         rb =GetComponent<Rigidbody>();
         sound =GetComponent<AudioSource>(); 
         isPower =false;
+        TravelHeading = transform.forward;
 
     }
 
     public void ActivatePowerUp(float duration, bool isFire)
     {
-        StartCoroutine(PowerTime(duration, isFire));
+        EndPower();
+        PowerActivation++;
+        isPower = true;
+        if (sound != null) sound.Play();
+        if (isFire && fireEffect != null) fireEffect.Play();
+        powerRoutine = StartCoroutine(PowerTime(duration));
     }
 
-    private IEnumerator PowerTime(float seconds, bool isFire)
+    IEnumerator PowerTime(float duration)
     {
-        isPower =true;
-        sound.Play();
-        if (isFire) {
-            fireEffect.Play();
-        }
-        yield return new WaitForSeconds(seconds);
-        isPower =false;
-        sound.Stop();
-        if (isFire)
+        yield return new WaitForSeconds(duration);
+        powerRoutine = null;
+        EndPower();
+    }
+
+    void EndPower()
+    {
+        if (powerRoutine != null)
         {
-            fireEffect.Stop();
+            StopCoroutine(powerRoutine);
+            powerRoutine = null;
         }
+        if (isPower && sound != null) sound.Stop();
+        if (isPower && fireEffect != null) fireEffect.Stop();
+        isPower = false;
     }
 
     public void LoseLife()
     {
+        if (lastLifeLostFrame == Time.frameCount) return;
+        lastLifeLostFrame = Time.frameCount;
+        EndPower();
         if (lives >=0)
         {
             lives--;
@@ -72,6 +88,9 @@ public class PacManScript : MonoBehaviour
         transform.rotation =spawnPoint.rotation;
         rb.velocity =Vector3.zero;
         rb.angularVelocity =Vector3.zero;
+        rotationY = spawnPoint.eulerAngles.y;
+        TravelHeading = transform.forward;
+        GhostScript.ResetRound();
     }
     // Update is called once per frame
     void Update()
@@ -84,6 +103,7 @@ public class PacManScript : MonoBehaviour
         transform.rotation = horizontalRotation;
 
         Vector3 movement= (transform.forward *Forward +transform.right *Sideways)*speed *Time.deltaTime;
+        if (movement.sqrMagnitude > 0.000001f) TravelHeading = movement.normalized;
         rb.MovePosition(rb.position +movement);
 
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
@@ -112,3 +132,5 @@ public class PacManScript : MonoBehaviour
     }
 
 }
+
+
